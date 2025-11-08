@@ -19,8 +19,8 @@ app/org.gnome.Weather/x86_64/stable
 app/org.gnome.baobab/x86_64/stable
 app/org.gnome.clocks/x86_64/stable
 app/org.gnome.font-viewer/x86_64/stable
-app/org.gnome.Showtime/x86_64/stable
 app/org.altlinux.Tuner/x86_64/stable
+app/io.github.celluloid_player/x86_64/stable
 app/com.obsproject.studio/x86_64/stable
 app/org.gimp.gimp/x86_64/stable
 app/org.libreoffice.libreoffice/x86_64/stable

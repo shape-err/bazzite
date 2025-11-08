@@ -23,27 +23,7 @@ jobs:
       matrix:
         image_name:
           - bazzite
-          - bazzite-nvidia
-          - bazzite-nvidia-open
           - bazzite-gnome
-          - bazzite-gnome-nvidia
-          - bazzite-gnome-nvidia-open
-          - bazzite-deck
-          - bazzite-deck-gnome
-          - bazzite-ally
-          - bazzite-ally-gnome
-          - bazzite-asus
-          - bazzite-gnome-asus
-          - bazzite-asus-nvidia
-          - bazzite-gnome-asus-nvidia
-          - bazzite-asus-nvidia-open
-          - bazzite-gnome-asus-nvidia-open
-          - bazzite-surface
-          - bazzite-gnome-surface
-          - bazzite-surface-nvidia-open
-          - bazzite-gnome-surface-nvidia-open
-          - bazzite-deck-nvidia
-          - bazzite-deck-nvidia-gnome
         major_version: [41]
     steps:
 
@@ -170,19 +150,3 @@ jobs:
           retention-days: 0
           compression-level: 0
           overwrite: true
-
-      - name: Upload ISOs and Checksum to R2
-        if: github.event_name == 'workflow_dispatch' && github.ref_name == 'main'
-        shell: bash
-        env:
-          RCLONE_CONFIG_R2_TYPE: s3
-          RCLONE_CONFIG_R2_PROVIDER: Cloudflare
-          RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-          RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          RCLONE_CONFIG_R2_REGION: auto
-          RCLONE_CONFIG_R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
-          SOURCE_DIR: ${{ steps.upload-directory.outputs.iso-upload-dir }}
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y rclone
-          rclone copy $SOURCE_DIR R2:bazzite
