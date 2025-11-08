@@ -19,11 +19,6 @@ glib-compile-schemas /usr/share/gnome-shell/extensions/add-to-steam@pupper.space
 mv /usr/share/gnome-shell/extensions/tmp/caffeine/caffeine@patapon.info /usr/share/gnome-shell/extensions/caffeine@patapon.info
 glib-compile-schemas /usr/share/gnome-shell/extensions/caffeine@patapon.info/schemas
 
-# Burn My Windows
-make -C /usr/share/gnome-shell/extensions/burn-my-windows@schneegans.github.com
-glib-compile-schemas /usr/share/gnome-shell/extensions/burn-my-windows@schneegans.github.com/schemas
-rm /usr/share/gnome-shell/extensions/burn-my-windows@schneegans.github.com/burn-my-windows@schneegans.github.com.zip
-
 # Desktop Cube
 make -C /usr/share/gnome-shell/extensions/desktop-cube@schneegans.github.com
 glib-compile-schemas /usr/share/gnome-shell/extensions/desktop-cube@schneegans.github.com/schemas
