@@ -413,12 +413,10 @@ RUN --mount=type=cache,dst=/var/cache \
             mutter \
             gsettings-desktop-schemas && \
         dnf5 -y install \
-            nautilus-gsconnect \
             steamdeck-backgrounds \
             steamdeck-gnome-presets \
             gnome-randr-rust \
             gnome-shell-extension-user-theme \
-            gnome-shell-extension-gsconnect \
             rom-properties-gtk3 \
             ibus-mozc \
             openssh-askpass \
