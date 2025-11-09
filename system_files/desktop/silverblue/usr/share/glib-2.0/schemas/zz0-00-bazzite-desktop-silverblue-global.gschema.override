@@ -39,6 +39,8 @@ download-updates=false
 download-updates-notify=false
 
 [org.gnome.Ptyxis]
+default-columns=124
+default-rows=32
 restore-session=false
 restore-window-size=false
 audible-bell=false
