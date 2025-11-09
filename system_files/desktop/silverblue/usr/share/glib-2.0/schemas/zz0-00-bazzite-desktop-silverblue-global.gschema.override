@@ -28,10 +28,14 @@ sort-directories-first=true
 sort-directories-first=true
 
 [org.gnome.nautilus.icon-view]
-default-zoom-level=small-plus
+default-zoom-level='small-plus'
 
 [org.gnome.nautilus.preferences]
 show-create-link=true
+
+[org.gnome.nautilus.window-state]
+initial-size='(1415, 830)'
+initial-size-file-chooser='(1175, 640)'
 
 [org.gnome.mutter]
 experimental-features=['variable-refresh-rate', 'scale-monitor-framebuffer', 'xwayland-native-scaling']
