@@ -276,8 +276,6 @@ RUN --mount=type=cache,dst=/var/cache \
         rocm-clinfo \
         waydroid \
         cage \
-		yt-dlp \
-		syncthing \
         wlr-randr && \
     systemctl mask iscsi && \
     mkdir -p /usr/lib/extest/ && \
@@ -447,6 +445,9 @@ RUN --mount=type=cache,dst=/var/cache \
     --mount=type=cache,dst=/var/log \
     --mount=type=secret,id=GITHUB_TOKEN \
     dnf5 install -y ublue-brew && \
+	brew install \
+	yt-dlp \
+	syncthing && \
     /ctx/ghcurl "https://raw.githubusercontent.com/ublue-os/bash-preexec/master/bash-preexec.sh" -Lo /usr/share/bash-prexec && \
     /ctx/cleanup
 
