@@ -39,6 +39,9 @@ picture-uri='file:///usr/share/backgrounds/abstract-circle.jpg'
 primary-color='#310042'
 secondary-color='#000622'
 
+[org.gnome.shell.extensions.auto-move-windows]
+application-list=['app.zen_browser.zen.desktop:1', 'ca.edestcroix.Recordbox.desktop:2', 'io.freetubeapp.FreeTube.desktop:2', 'steam.desktop:3', 'net.lutris.Lutris.desktop:3', 'org.prismlauncher.PrismLauncher.desktop:3']
+
 [org.gnome.shell.extensions.blur-my-shell.panel]
 blur=true
 static-blur=true
