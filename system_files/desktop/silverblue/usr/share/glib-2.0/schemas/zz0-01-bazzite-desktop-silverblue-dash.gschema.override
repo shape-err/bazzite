@@ -1,2 +1,2 @@
-[org.gnome.shell] 
-favorite-apps=['app.zen_browser.zen.desktop', 'steam.desktop', 'net.lutris.Lutris.desktop', 'io.github.kolunmi.Bazaar.desktop', 'org.gnome.Ptyxis.desktop', 'org.gnome.Nautilus.desktop']
+[org.gnome.shell]
+favorite-apps=['io.github.kolunmi.Bazaar.desktop', 'org.gnome.Nautilus.desktop', 'app.zen_browser.zen.desktop', 'org.signal.Signal.desktop', 'dev.vencord.Vesktop', 'md.obsidian.Obsidian.desktop', 'io.freetubeapp.FreeTube.desktop', 'ca.edestcroix.Recordbox.desktop', 'steam.desktop', 'net.lutris.Lutris.desktop', 'org.gnome.Ptyxis.desktop']
