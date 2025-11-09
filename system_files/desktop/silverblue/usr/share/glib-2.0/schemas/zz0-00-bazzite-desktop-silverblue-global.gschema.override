@@ -57,9 +57,9 @@ legacy-tray-enabled=false
 
 # LogoMenu extension misses Gschema XML file, so it's in dconf
 
-[org.gnome.nautilus.window-state]
-initial-size='(1415, 830)'
-initial-size-file-chooser='(1175, 640)'
+#[org.gnome.nautilus.window-state]
+#initial-size='(1415, 830)'
+#initial-size-file-chooser='(1175, 640)'
 
 # Modifying shortcut actions for custom0, custom1, custom2, etc. are recognized as relocatable schemas
 [org.gnome.settings-daemon.plugins.media-keys]
