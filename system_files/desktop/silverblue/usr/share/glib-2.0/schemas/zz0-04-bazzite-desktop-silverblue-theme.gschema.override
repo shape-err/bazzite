@@ -17,16 +17,6 @@ accent-color='purple'
 [org.gnome.mutter]
 center-new-windows=true
 
-[org.gnome.settings-daemon.plugins.color]
-night-light-enabled=true
-night-light-schedule-automatic=false
-night-light-schedule-from=3.0
-night-light-schedule-to=2.0
-night-light-temperature=4200
-
-[org.gnome.settings-daemon.plugins.power]
-sleep-inactive-ac-timeout=3600
-
 [org.gnome.desktop.sound]
 theme-name='steam'
 
