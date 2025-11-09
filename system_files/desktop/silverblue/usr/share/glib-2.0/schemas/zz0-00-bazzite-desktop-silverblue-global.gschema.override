@@ -8,6 +8,9 @@ night-light-temperature=4200
 [org.gnome.settings-daemon.plugins.power]
 sleep-inactive-ac-timeout=7200
 
+[org.gnome.desktop.session]
+idle-delay=0
+
 [org.gnome.desktop.wm.keybindings]
 switch-applications=['<Super>Tab']
 switch-applications-backward=['<Shift><Super>Tab']
