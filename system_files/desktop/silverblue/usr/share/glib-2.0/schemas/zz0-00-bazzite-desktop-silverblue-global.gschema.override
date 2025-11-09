@@ -33,10 +33,6 @@ default-zoom-level='small-plus'
 [org.gnome.nautilus.preferences]
 show-create-link=true
 
-[org.gnome.nautilus.window-state]
-initial-size='(1415, 830)'
-initial-size-file-chooser='(1175, 640)'
-
 [org.gnome.mutter]
 experimental-features=['variable-refresh-rate', 'scale-monitor-framebuffer', 'xwayland-native-scaling']
 check-alive-timeout=uint32 20000
@@ -60,6 +56,10 @@ legacy-tray-enabled=false
 # Settings bellow are supported with gschema override, but other settings, which are relocatable schemas, are not. Edit dconfs if you need to modify relocatable schemas.
 
 # LogoMenu extension misses Gschema XML file, so it's in dconf
+
+[org.gnome.nautilus.window-state]
+initial-size='(1415, 830)'
+initial-size-file-chooser='(1175, 640)'
 
 # Modifying shortcut actions for custom0, custom1, custom2, etc. are recognized as relocatable schemas
 [org.gnome.settings-daemon.plugins.media-keys]
