@@ -419,6 +419,7 @@ RUN --mount=type=cache,dst=/var/cache \
             steamdeck-gnome-presets \
             gnome-randr-rust \
             gnome-shell-extension-user-theme \
+            gnome-shell-extension-auto-move-windows \
             rom-properties-gtk3 \
             ibus-mozc \
             openssh-askpass \
