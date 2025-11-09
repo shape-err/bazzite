@@ -10,9 +10,6 @@
 [submodule "caffeine@patapon.info"]
 	path = system_files/desktop/silverblue/usr/share/gnome-shell/extensions/tmp/caffeine
 	url = https://github.com/eonpatapon/gnome-shell-extension-caffeine.git
-[submodule "syncthing@gnome.2nv2u.com"]
-	path = system_files/desktop/silverblue/usr/share/gnome-shell/extensions/syncthing@gnome.2nv2u.com
-	url = https://github.com/2nv2u/gnome-shell-extension-syncthing-indicator.git
 [submodule "auto-move-windows@gnome-shell-extensions.gcampax.github.com"]
 	path = system_files/desktop/silverblue/usr/share/gnome-shell/extensions/auto-move-windows@gnome-shell-extensions.gcampax.github.com
 	url = https://gitlab.gnome.org/GNOME/gnome-shell-extensions.git
