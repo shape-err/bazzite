@@ -1,3 +1,16 @@
 [Default Applications]
+text/calendar=org.gnome.Calendar.desktop
+x-scheme-handler/webcal=org.gnome.Calendar.desktop
 application/pdf=org.gnome.Papers.desktop
 application/vnd.flatpak.ref=io.github.kolunmi.Bazaar.desktop
+x-scheme-handler/http=app.zen_browser.zen.desktop
+x-scheme-handler/https=app.zen_browser.zen.desktop
+text/html=app.zen_browser.zen.desktop
+video/mp4=io.github.celluloid_player.Celluloid.desktop
+video/x-matroska=io.github.celluloid_player.Celluloid.desktop
+video/x-msvideo=io.github.celluloid_player.Celluloid.desktop
+video/quicktime=io.github.celluloid_player.Celluloid.desktop
+audio/mpeg=io.github.celluloid_player.Celluloid.desktop
+audio/x-wav=io.github.celluloid_player.Celluloid.desktop
+audio/flac=io.github.celluloid_player.Celluloid.desktop
+audio/ogg=io.github.celluloid_player.Celluloid.desktop
