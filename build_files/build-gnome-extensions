@@ -13,8 +13,6 @@ glib-compile-schemas /usr/share/gnome-shell/extensions/hotedge@jonathan.jdoda.ca
 glib-compile-schemas /usr/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com/schemas
 mv /usr/share/gnome-shell/extensions/tmp/caffeine/caffeine@patapon.info /usr/share/gnome-shell/extensions/caffeine@patapon.info
 glib-compile-schemas /usr/share/gnome-shell/extensions/caffeine@patapon.info/schemas
-mv /usr/share/gnome-shell/extensions/tmp/syncthing/src /usr/share/gnome-shell/extensions/syncthing@gnome.2nv2u.com
-glib-compile-schemas /usr/share/gnome-shell/extensions/syncthing@gnome.2nv2u.com/schemas
 
 # Blur My Shell
 make -C /usr/share/gnome-shell/extensions/blur-my-shell@aunetx
