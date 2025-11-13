@@ -276,7 +276,6 @@ RUN --mount=type=cache,dst=/var/cache \
         rocm-clinfo \
         waydroid \
         cage \
-        yt-dlp \
         wlr-randr && \
     systemctl mask iscsi && \
     mkdir -p /usr/lib/extest/ && \
