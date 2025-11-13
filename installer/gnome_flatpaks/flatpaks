@@ -36,7 +36,7 @@ app/dev.zed.Zed/x86_64/stable
 app/org.upscayl.Upscayl/x86_64/stable
 app/com.nextcloud.desktopclient.nextcloud/x86_64/stable
 app/app.drey.EarTag/x86_64/stable
-app/ca.edestcroix.Recordbox/x86_64/stable
+app/com.github.taiko2k.tauonmb/x86_64/stable
 app/com.github.zocker_160.SyncThingy/x86_64/stable
 runtime/org.freedesktop.Platform.VulkanLayer.MangoHud/x86_64/23.08
 runtime/org.freedesktop.Platform.VulkanLayer.vkBasalt/x86_64/23.08
